@@ -1,0 +1,37 @@
+{
+  "name": "csv-parser-2",
+  "version": "1.0.0",
+  "description": "csv parser with automatic delimeter and encoding detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debitoor/csv-parser.git"
+  },
+  "keywords": [
+    "csv",
+    "parse",
+    "utf8"
+  ],
+  "author": "debitoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debitoor/csv-parser/issues"
+  },
+  "homepage": "https://github.com/debitoor/csv-parser#readme",
+  "dependencies": {
+    "iconv-lite": "^0.4.13",
+    "jschardet": "^1.4.1",
+    "nodeerrors": "^2.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "mocha-jshint": "^2.3.1",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0",
+    "xtend": "^4.0.1"
+  }
+}
