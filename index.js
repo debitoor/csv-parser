@@ -26,6 +26,9 @@ module.exports = function(buffer, opts) {
 		return {error: errors.tooFewRows()};
 	}
 
-	trimAllCells(rows);
+	if (opts.trim !== false) {
+		trimAllCells(rows);	
+	}
+	
 	return {rows: rows};
 };
