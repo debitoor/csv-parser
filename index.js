@@ -10,7 +10,7 @@ module.exports = function(buffer, opts) {
 	var bufferUtf8 = toUtf8(buffer);
 
 	var csv = csvParser();
-	csv.DELIMITER = detectDelimiter(bufferUtf8);
+	csv.DELIMITER = detectDelimiter(bufferUtf8, opts);
 	csv.DETECT_TYPES = false;
 	csv.RELAXED = true;
 	var parsed;
