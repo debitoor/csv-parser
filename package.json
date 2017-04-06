@@ -1,6 +1,6 @@
 {
   "name": "@debitoor/csv-parser",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "csv parser with automatic delimeter and encoding detection",
   "main": "index.js",
   "scripts": {
