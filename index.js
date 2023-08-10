@@ -3,7 +3,7 @@ var toUtf8 = require('./lib/toUtf8');
 var csvParser = require('./lib/csvParser');
 var removeEmptyRows = require('./lib/removeEmptyRows');
 var trimAllCells = require('./lib/trimAllCells');
-var errors = require('nodeerrors');
+var errors = require('@debitoor/nodeerrors')();
 
 module.exports = function(buffer, opts) {
 	opts = opts || {};

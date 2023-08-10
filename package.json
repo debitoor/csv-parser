@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/debitoor/csv-parser#readme",
   "dependencies": {
+    "@debitoor/nodeerrors": "git+https://github.com/debitoor/nodeerrors.git#IA-8384-fix-honeycomb-in-debitoor-api",
     "iconv-lite": "^0.4.13",
-    "jschardet": "^1.4.1",
-    "nodeerrors": "^2.1.2"
+    "jschardet": "^1.4.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
