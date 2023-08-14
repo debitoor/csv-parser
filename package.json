@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/debitoor/csv-parser#readme",
   "dependencies": {
-    "@debitoor/nodeerrors": "git+https://github.com/debitoor/nodeerrors.git#IA-8384-fix-honeycomb-in-debitoor-api",
+    "@debitoor/nodeerrors": "github:debitoor/nodeerrors.git#pass-start-dir-to-moduleconfig",
     "iconv-lite": "^0.4.13",
     "jschardet": "^1.4.1"
   },
