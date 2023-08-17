@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/debitoor/csv-parser#readme",
   "dependencies": {
-    "@debitoor/nodeerrors": "github:debitoor/nodeerrors.git#pass-start-dir-to-moduleconfig",
+    "@debitoor/nodeerrors": "1.0.1",
     "iconv-lite": "^0.4.13",
     "jschardet": "^1.4.1"
   },
