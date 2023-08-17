@@ -1,9 +1,11 @@
+var errorsFactory = require('@debitoor/nodeerrors')
 var detectDelimiter = require('./lib/detectDelimiter');
 var toUtf8 = require('./lib/toUtf8');
 var csvParser = require('./lib/csvParser');
 var removeEmptyRows = require('./lib/removeEmptyRows');
 var trimAllCells = require('./lib/trimAllCells');
-var errors = require('nodeerrors');
+
+var errors = errorsFactory();
 
 module.exports = function(buffer, opts) {
 	opts = opts || {};
